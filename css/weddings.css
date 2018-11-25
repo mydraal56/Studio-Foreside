@@ -1,0 +1,80 @@
+.weddingtitle {
+    font-size: 3em;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    margin-left: 7%;
+}
+li, span, a { 
+    text-decoration: none;
+}
+
+.email {
+	/*background-color: blue; */
+	
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-shadow: 2px 2px #000000;
+    background-color: rgba(96, 96, 96, .7);
+ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow:  2px 2px darkslategray;
+    
+  
+}
+
+.weddingText { 
+    font-size: 2.0em;
+    color: red;
+   
+}
+
+.staffTable {
+    align-content: center;
+}
+
+ul { 
+    text-decoration: none;
+    
+}
+.name li  {
+    display: inline-block;
+    padding: 15px; 
+   
+
+}
+
+.mainImgWedding { 
+  
+    
+    
+    float: right;
+    width: 15%;
+    opacity: .8;
+}
+
+.blurredMain { 
+    background-color:rgba(17, 5, 5, 0.7);
+}
+
+@media screen  and (min-width: 501px) and (max-device-width : 1200px) {}
+
+@media screen and (max-device-width : 500px) {
+    .weddingText {
+        font-size: 1.2em;
+    }
+    .mainImgWedding {
+        width: 40%;
+        
+
+
+    }
+
+    .email { 
+        font-size: 2.0em;
+        line-height: 1.6em;
+    }
+}

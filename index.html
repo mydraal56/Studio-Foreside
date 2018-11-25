@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!--  <meta name="viewport" content="width=device-width"> -->
+
+	<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/material.min.css">
+	<link rel="stylesheet" type="text/css" href="css/theme.css">
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>-->
+    <script src="JSFiles/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="JSFiles/material.min.js"></script>
+
+    <script src="routing.js"></script>
+    <script src="JSFiles/script.js"></script>
+
+	<title>Studio Foreside</title>
+
+
+</head>
+
+
+
+<body ng-app="mainSection" >
+    <img class="BackImg" src="images/ShoppedImage.jpg">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+            <img class="logoImg" onClick="mobileMenuBar()"src="images/Studio Foreside - 2.svg"  />
+
+        <div id="mdl-navigation">
+
+            <div class="mdl-navigation">
+                    <div class="mdl-layout-spacer"></div>
+                <a class="mdl-navigation__link" onClick="mobileMenuBar()" href="#!/">Home</a></li>
+                <div class="mdl-layout-spacer" ></div>
+                <a class="mdl-navigation__link" onClick="mobileMenuBar()" href="#!services">Business Info</a>
+                <div class="mdl-layout-spacer"></div>
+                <!-- <a class="mdl-navigation__link" onClick="mobileMenuBar()" href="#!weddings">Weddings</a>
+                <div class="mdl-layout-spacer"></div> -->
+                <!-- <a class="mdl-navigation__link" onClick="mobileMenuBar()" href="#!hours">Hours</a>
+                <div class="mdl-layout-spacer"></div>
+                <a class="mdl-navigation__link" onClick="mobileMenuBar()" href="#!directions">Directions</a>
+                <div class="mdl-layout-spacer"></div>
+                <a class="mdl-navigation__link" onClick="mobileMenuBar()" href="#!contact">Contact</a>
+                <div class="mdl-layout-spacer"></div> -->
+                <a class="mdl-navigation__link" onClick="mobileMenuBar()" href="#!staff">About the Owner</a>
+                <div class="mdl-layout-spacer"></div>
+               <a href="https://www.facebook.com/StudioForeside"> <i class="fa fa-facebook fa-fw FBIcon"></i> </a>
+                <div class="mdl-layout-spacer"></div>
+
+            </div>
+        </div>
+
+
+<div  class="TopGap"></div>
+
+
+
+    <div ng-view class="" style="width: auto; margin-left: auto; margin-right:auto;" id="view" >
+
+    </div>
+
+<!-- <div class="FBWidge"style="position: absolute; bottom: 0; width: 100%">
+    <div class="fb-page centered"  
+    data-href="https://www.facebook.com/StudioForeside"
+    data-width="500" 
+    data-hide-cover="false"
+    data-show-facepile="false">
+    </div>
+</div> -->
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,36 @@
+.blurredMain { 
+    background-color:rgba(17, 5, 5, 0.7);
+    padding-left: 10%;
+    color: white;
+    font-size: 1.52em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.directionsMain {
+    padding-left: 10%;
+    color: white;
+}
+
+.blurredMain li {
+    line-height: 1.8em;
+}
+
+.name { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+@media screen  and (min-width: 501px) and (max-device-width : 1200px) {
+
+}
+
+
+@media screen and (max-device-width : 500px) {
+    .blurredMain {
+        font-size: .7em;
+    }
+
+    .directionsMain  {
+        font-size: 1.8em;
+    }
+}

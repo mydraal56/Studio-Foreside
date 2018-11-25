@@ -1,0 +1,229 @@
+
+body {
+/* 
+    background-image: url("../images/ShoppedImage.jpg"); 
+     background-repeat: no-repeat;
+    background-size: 50;    */
+    /* background-color: beige; */
+    /* padding : 0;
+    margin : 0; */
+    position: absolute;
+}
+/* 
+.body2 { 
+    background-image: url("images/Esse-FrontWide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+} */
+
+#navbar{ 
+    display:inline-block;
+    width: 100%;
+    /*position:absolute;*/
+    
+    margin-top:0px;
+    white-space: nowrap;
+   
+    
+    
+}
+
+.BackImg { 
+    width: 100%;
+    float: left;
+    position: fixed; 
+    z-index: -1;
+    
+}
+
+.blurred{ 
+    background-color:rgba(17, 5, 5, 0.2);
+ 
+    
+}
+
+.centered { 
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainBody 
+{
+    
+    height: 670px;
+    overflow-y: auto;
+}
+
+
+.styletitle { 
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    
+    text-shadow: 2px 2px grey;
+}
+
+
+.headerList { 
+    padding-left: 15%;   
+}
+
+.headerListItem { 
+   
+    display:inline-block;
+    white-space:nowrap;
+    width: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    padding:10px 10px;
+    font-weight: bold;
+}
+
+.headerListItem a { 
+    text-decoration: none;
+    
+}
+
+.headerListItem a:hover { 
+    color: darkgrey;
+}
+
+.logoImg {
+    float: left; 
+    position: absolute; 
+    top: 0; left: 0; 
+    opacity: .9;
+    width:12%;
+    margin: -2%;
+    margin-top: -1.5%;
+    padding: -25px; 
+}
+.mdl-navigation__link{
+    padding-top: 8px;
+}
+
+.mdl-navigation { 
+    height: 40px; 
+    margin-top: 10px; 
+    vertical-align: middle; 
+     
+}
+
+#mdl-navigation { 
+    display: block;
+    background-color:rgba(17, 5, 5, 0.2);
+    
+}   
+
+.FBWidge { 
+    position: fixed; 
+    bottom: 1px;
+    display: none;
+}
+
+.FBIcon { 
+    margin-top: 10px;
+    color: white;
+    font-size: 1.4em;
+}
+
+.TopGap {
+    height: 300px;
+}
+@media screen  and (min-width: 501px) and (max-device-width : 1200px) {
+    #mdl-navigation { 
+        display: block;
+    }
+}
+
+
+@media screen and (max-device-width : 500px) {
+body {
+    /* background-image: url("images/Esse-FrontPortrait.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color:/* #d3c4be;*/ 
+    padding-top: 10%;
+}
+.BackImg { 
+    float: right;
+    position: fixed;
+    width: 200%; 
+    z-index: -1;
+}
+#navbar { 
+    display: none;
+    float:top;
+    position: absolute; 
+    z-index: 1;
+    top: 15; left: 0; 
+    background-color: rgba(0,0,0, .7);
+    
+}
+
+#navbar ul { 
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+.headerListItem {
+    display: block;
+    font-size: 3.5em;
+    line-height: 2.6em;
+    
+}
+
+.logoImg { 
+    background: white;
+    box-shadow: 4px 4px 4px 4px;
+    width: 20%;
+    margin: 1%;
+    position: fixed; 
+    z-index: 3;
+    
+    
+}
+
+.logoImg:active { 
+    background-color: rgb(167, 167, 141);
+}
+
+.mdl-card { 
+    width: 90%;
+    font-size: 1.5em;
+}
+
+ .mdl-navigation {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10%; 
+    float: left;
+    z-index: 2;
+    
+    
+} 
+
+#mdl-navigation { 
+    display: none;
+    
+    
+}
+.mdl-navigation__link{
+   
+    font-size: 8em;
+    padding: 5%;
+    color: white;
+    line-height: 100px;
+   background-color: rgba(17, 5, 5, 0.2);
+    width: 90%;
+    
+}
+
+.TopGap {
+    height: 50px;
+}
+
+
+}
